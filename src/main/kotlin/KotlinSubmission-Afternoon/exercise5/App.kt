@@ -8,6 +8,8 @@ fun main() {
      *
      */
 
+    val hero = Hero()
+
 
     /**
      * Latihan 2
@@ -16,6 +18,8 @@ fun main() {
      *
      */
 
+    hero.setProfile("Dark Willow", 50, 150)
+
 
 
     /**
@@ -23,6 +27,8 @@ fun main() {
      * Tampilkan data profile dibawah ini, sebelum melakukan aktivitas
      *
      */
+
+    hero.profile()
 
 
 
@@ -66,6 +72,13 @@ fun main() {
      *
      */
 
+    repeat(3) { hero.jalan() }
+    repeat(2) { hero.lari() }
+    repeat(4) { hero.makan() }
+    hero.minum()
+    repeat(5) { hero.lompat() }
+    hero.duduk()
+
 
 
     /**
@@ -73,6 +86,8 @@ fun main() {
      * Panggil fungsi profile dibawah ini untuk menampilkan status terkini setelah melakukan aktivitas
      *
      */
+
+    hero.profile()
 
 
 
